@@ -1,0 +1,355 @@
+body{
+    background-color: #e2b6ad;
+    margin: 0;
+    padding: 0;
+}
+
+/* links */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* navigation bar */
+    #navbar{
+        background-color: #826458;
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #logo{
+        height: 80px;
+        width: 115px;
+        margin-left: 15px;
+    }
+
+    #buttons{
+        width: 85%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttonText{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #aboutMe{
+        background-color: #826458;
+        width: 13%;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+    #projects{
+        background-color: #826458;
+        width: 13%;
+        height: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #contactMe{
+        background-color: #826458;
+        width: 13%;
+        height: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #languageSwitch{
+        border-radius: 50px;
+        background-color: #826458;
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+/* welcome screen */
+    #welcomeScreen{
+        background-color: #826458;
+        width: 100vw;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #welcomeImage{
+        width: 100vw;
+        height: 650px;
+    }
+
+    #welcomeText{
+        font-size: 175%;
+        position: absolute;
+    }
+
+    #nameText{
+        font-size: 150%;
+    }
+
+/* contact box */
+    #contactBox{
+        width: 100vw;
+        text-align: center;
+    }
+
+    #contactButtons{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+/* about me */
+    #aboutMeContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .aboutMeContainerStart{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100vw;
+    }
+
+    .aboutMeContainerEnd{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100vw;
+    }
+
+    .aboutTitles{
+        text-align: center;
+        border-radius: 20px;
+        width: 100vw;
+        padding: 2%;
+        margin: 2%;
+        background-color: #c89b99;
+    }
+
+    .section{
+        display: flex;
+        width: 55%;
+        padding: 2%;
+        margin: 2%;
+    }
+
+/*project page*/
+
+    #projectsContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr;
+        grid-template-areas:
+        ". . blobrunTitle"
+        ". . blobrunDiscription"
+        ". . ."
+        "portfolioTitle . ."
+        "portfolioDiscription . ."
+        ". . . "
+        ". . mysticlandsTitle"
+        ". . mysticlandsDiscription"
+        ". . . "
+        "brokenheartsTitle . ."
+        "brokenheartsDiscription . ."
+    }
+
+    #projectsContainer #blobrunTitle {
+        background-color: #c89b99;
+        grid-area: blobrunTitle;
+        border-radius: 20px;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #blobrunShortDiscription {
+        grid-area: blobrunDiscription;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #portfolioSiteTitle {
+        background-color: #c89b99;
+        grid-area: portfolioTitle;
+        border-radius: 20px;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #portfolioSiteShortDiscription {
+        grid-area: portfolioDiscription;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #mysticLandsTitle {
+        background-color: #c89b99;
+        grid-area: mysticlandsTitle;
+        border-radius: 20px;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #mysticLandsShortDiscription {
+        grid-area: mysticlandsDiscription;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #brokenheartsTitle {
+        background-color: #c89b99;
+        grid-area: brokenheartsTitle;
+        border-radius: 20px;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #brokenHeartsShortDiscription {
+        grid-area: brokenheartsDiscription;
+        margin-left: 4%;
+    }
+
+    .projectTitles{
+        text-align: center;
+        padding: 2%;
+        margin: 2%;
+    }
+
+/*project page*/
+
+    #blobrunContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "blobrunFullImg blobrunFullImg blobrunFullImg blobrunFullImg blobrunFullImg"
+            ". blobrunImg blobrunImg blobrunImg ."
+            ". blobrunMainText blobrunMainText blobrunMainText ."
+            "blobrunSubText blobrunSubText blobrunSubText . ."
+            ". blobrunProgramImg blobrunProgramImg2 blobrunProgramImg3 ."
+            ". . blobrunSubText2 blobrunSubText2 blobrunSubText2"
+            ". blobrunEnd blobrunEnd blobrunEnd ."
+    }
+
+    #blobrunContainer #blobrunFullImg {
+        grid-area: blobrunFullImg;
+        margin-bottom: 2%;
+    }
+
+    #blobrunContainer #blobrunImg {
+        grid-area: blobrunImg;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunMainText {
+        grid-area: blobrunMainText;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunSubText {
+        grid-area: blobrunSubText;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunProgramImg {
+        grid-area: blobrunProgramImg;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunProgramImg2 {
+        grid-area: blobrunProgramImg2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunProgramImg3 {
+        grid-area: blobrunProgramImg3;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunSubText2 {
+        grid-area: blobrunSubText2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-right: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #blobrunContainer #blobrunEnd {
+        grid-area: blobrunEnd;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .projectMainScreen{
+        background-color: #826458;
+        width: 100vw;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .projectMainImg{
+        width: 100vw;
+        height: 650px;
+    }
+
+    .projectTitleText{
+        font-size: 175%;
+        position: absolute;
+    }
+
+/*  */
