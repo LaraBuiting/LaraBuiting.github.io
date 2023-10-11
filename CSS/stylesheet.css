@@ -242,7 +242,7 @@ a:active {
         margin: 2%;
     }
 
-/*project page*/
+/*Blobrun page*/
 
     #blobrunContainer{
         display: grid;
@@ -352,4 +352,29 @@ a:active {
         position: absolute;
     }
 
-/*  */
+
+
+/* Portfoliosite */
+
+    #portfolioContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                    "portfolioFullImg portfolioFullImg portfolioFullImg portfolioFullImg portfolioFullImg"
+                    ". . portfolioHeader . ."
+                    ". portfolioMainText portfolioMainText portfolioMainText ."
+                    ". . portfolioSubText portfolioSubText portfolioSubText"
+                    ". portfolioProgramImg portfolioProgramImg2 portfolioProgramImg3 ."
+                    ". . portfolioHeader2 . ."
+                    "portfolioSubText2 portfolioSubText2 portfolioSubText2 . ."
+                    ". portfolioimg portfolioimg portfolioimg ."
+                    ". . portfolioSubText3 portfolioSubText3 portfolioSubText3"
+                    ". portfolioimg2 portfolioimg2 portfolioimg2 ."
+                    ". . portfolioHeader3 . ."
+                    ". . portfolioimg3 portfolioimg3 portfolioimg3"
+                    "portfolioimg4 portfolioimg4 portfolioimg4 . ."
+                    ". . portfolioimg5 portfolioimg5 portfolioimg5"
+                    "portfolioimg6 portfolioimg6 portfolioimg6 . ."
+    }
