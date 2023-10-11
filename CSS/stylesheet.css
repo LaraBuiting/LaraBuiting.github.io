@@ -363,18 +363,139 @@ a:active {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
                     "portfolioFullImg portfolioFullImg portfolioFullImg portfolioFullImg portfolioFullImg"
-                    ". . portfolioHeader . ."
                     ". portfolioMainText portfolioMainText portfolioMainText ."
                     ". . portfolioSubText portfolioSubText portfolioSubText"
-                    ". portfolioProgramImg portfolioProgramImg2 portfolioProgramImg3 ."
                     ". . portfolioHeader2 . ."
+                    ". portfolioProgramImg portfolioProgramImg2 portfolioProgramImg3 ."
                     "portfolioSubText2 portfolioSubText2 portfolioSubText2 . ."
-                    ". portfolioimg portfolioimg portfolioimg ."
-                    ". . portfolioSubText3 portfolioSubText3 portfolioSubText3"
-                    ". portfolioimg2 portfolioimg2 portfolioimg2 ."
                     ". . portfolioHeader3 . ."
-                    ". . portfolioimg3 portfolioimg3 portfolioimg3"
-                    "portfolioimg4 portfolioimg4 portfolioimg4 . ."
-                    ". . portfolioimg5 portfolioimg5 portfolioimg5"
-                    "portfolioimg6 portfolioimg6 portfolioimg6 . ."
+                    ". portfolioSubText3 portfolioSubText3 portfolioSubText3 ."
+                    ". portfolioimg portfolioimg portfolioimg ."
+                    ". . portfolioimg2 portfolioimg2 portfolioimg2"
+                    "portfolioimg3 portfolioimg3 portfolioimg3 . ."
+                    ". . portfolioimg4 portfolioimg4 portfolioimg4"
+                    "portfolioimg5 portfolioimg5 portfolioimg5 . ."
+                    ". portfolioimg6 portfolioimg6 portfolioimg6 ."
+    }
+
+    #portfolioContainer #portfolioFullImg{
+        grid-area: portfolioFullImg;
+        width: 100vw;
+    }
+
+    #portfolioContainer #portfolioMainText{
+        grid-area: portfolioMainText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioSubText{
+        grid-area: portfolioSubText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioHeader2{
+        grid-area: portfolioHeader2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioProgramImg {
+        grid-area: portfolioProgramImg;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioProgramImg2{
+        grid-area: portfolioProgramImg2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioProgramImg3{
+        grid-area: portfolioProgramImg3;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioSubText2{
+        grid-area: portfolioSubText2;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioHeader3{
+        grid-area: portfolioHeader3;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+#portfolioContainer #portfolioSubText3{
+        grid-area: portfolioSubText3;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioImg{
+        grid-area: portfolioimg;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioImg2{
+        grid-area: portfolioimg2;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioImg3{
+        grid-area: portfolioimg3;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioImg4{
+        grid-area: portfolioimg4;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #portfolioContainer #portfolioImg5{
+        grid-area: portfolioimg5;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    #portfolioContainer #portfolioImg6{
+        grid-area: portfolioimg6;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
