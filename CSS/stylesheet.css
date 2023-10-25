@@ -450,7 +450,7 @@ a:active {
     }
 
 
-#portfolioContainer #portfolioSubText3{
+    #portfolioContainer #portfolioSubText3{
         grid-area: portfolioSubText3;
         margin-left: 4%;
         margin-top: 4%;
@@ -495,6 +495,98 @@ a:active {
 
     #portfolioContainer #portfolioImg6{
         grid-area: portfolioimg6;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+/* MysticLands */
+
+    #mysticLandsContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                        "mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg"
+                        ". . mysticLandsMainText . ."
+                        ". mysticLandsProgramImg mysticLandsProgramImg2 mysticLandsProgramImg3 ."
+                        "mysticLandsSubText mysticLandsSubText mysticLandsSubText . ."
+                        ". . mysticLandsImg . ."
+                        ". . . mysticLandsImg2 ."
+                        ". mysticLandsImg3 mysticLandsImg3 . ."
+                        ". mysticLandsImg4 mysticLandsImg4 mysticLandsImg4 ."
+    }
+
+    #mysticLandsContainer #mysticLandsMainImg{
+        grid-area: mysticLandsMainImg;
+        width: 100vw;
+    }
+
+    #mysticLandsContainer #mysticLandsMainText{
+        grid-area: mysticLandsMainText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsProgramImg{
+        grid-area: mysticLandsProgramImg;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsProgramImg2{
+        grid-area: mysticLandsProgramImg2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsProgramImg3 {
+        grid-area: mysticLandsProgramImg3;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsSubText{
+        grid-area: mysticLandsSubText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsImg{
+        grid-area: mysticLandsImg;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+#mysticLandsContainer #mysticLandsImg2{
+        grid-area: mysticLandsImg2;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsImg3{
+        grid-area: mysticLandsImg3;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsImg4{
+        grid-area: mysticLandsImg4;
         margin-left: 4%;
         margin-top: 4%;
         margin-bottom: 4%;
