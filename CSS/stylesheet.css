@@ -97,7 +97,7 @@ a:active {
     #welcomeScreen{
         background-color: #826458;
         width: 100vw;
-        height: 650px;
+        height: 88vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -106,7 +106,7 @@ a:active {
 
     #welcomeImage{
         width: 100vw;
-        height: 650px;
+        height: 88vh;
     }
 
     #welcomeText{
