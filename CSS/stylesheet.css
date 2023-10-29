@@ -167,6 +167,131 @@ a:active {
         margin: 2%;
     }
 
+    #programsIKnowContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                                "programImg programImg2 programImg3 programImg4 "
+                                "programTitle programTitle2 programTitle3 programTitle4"
+                                ". . . ."
+                                "programImg5 programImg6 programImg7 programImg8"
+                                "programTitle5 programTitle6 programTitle7 programTitle8"
+    }
+
+    #programsIKnowContainer #programImg{
+        grid-area: programImg;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg2{
+        grid-area: programImg2;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg3{
+        grid-area: programImg3;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg4{
+        grid-area: programImg4;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg5{
+        grid-area: programImg5;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg6{
+        grid-area: programImg6;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg7{
+        grid-area: programImg7;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programImg8{
+        grid-area: programImg8;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle{
+        grid-area: programTitle;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle2{
+        grid-area: programTitle2;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle3{
+        grid-area: programTitle3;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle4{
+        grid-area: programTitle4;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle5{
+        grid-area: programTitle5;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle6{
+        grid-area: programTitle6;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle7{
+        grid-area: programTitle7;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #programsIKnowContainer #programTitle8{
+        grid-area: programTitle8;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
 /*project page*/
 
     #projectsContainer{
@@ -506,14 +631,15 @@ a:active {
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
                         "mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg"
                         ". mysticLandsMainText mysticLandsMainText mysticLandsMainText ."
-                        ". mysticLandsProgramImg mysticLandsProgramImg2 mysticLandsProgramImg3 ."
+                        ". mysticLandsProgramImg . mysticLandsProgramImg2 ."
                         "mysticLandsSubText mysticLandsSubText mysticLandsSubText . ."
                         ". mysticLandsImg mysticLandsImg2 mysticLandsImg3 ."
                         ". mysticLandsImg4 mysticLandsImg4 mysticLandsImg4 ."
+                        ". mysticLandsGame mysticLandsGame mysticLandsGame ."
     }
 
     #mysticLandsContainer #mysticLandsMainImg{
@@ -585,6 +711,130 @@ a:active {
 
     #mysticLandsContainer #mysticLandsImg4{
         grid-area: mysticLandsImg4;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mysticLandsContainer #mysticLandsGame{
+        grid-area: mysticLandsGame;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+/* Broken Hearts */
+
+    #brokenHeartsContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                            "brokenHeartsMainImg brokenHeartsMainImg brokenHeartsMainImg brokenHeartsMainImg brokenHeartsMainImg"
+                            ". brokenHeartsMainText brokenHeartsMainText brokenHeartsMainText ."
+                            ". brokenHeartsProgram . brokenHeartsProgram2  ."
+                            "brokenHeartsSubText brokenHeartsSubText brokenHeartsSubText . ."
+                            ". . brokenHeartsSubText2 brokenHeartsSubText2 brokenHeartsSubText2"
+                            "brokenHeartsSubText3 brokenHeartsSubText3 brokenHeartsSubText3 . ."
+                            ". brokenHeartsImg brokenHeartsImg brokenHeartsImg ."
+                            ". . brokenHeartsImg2 . ."
+                            ". .  brokenHeartsImg3 brokenHeartsImg3 brokenHeartsImg3 "
+                            ". brokenHeartsImg4 brokenHeartsImg4 brokenHeartsImg4 ."
+                            ". .  brokenHeartsImg5 brokenHeartsImg5 brokenHeartsImg5 "
+    }
+
+    #brokenHeartsContainer #brokenHeartsFullImg{
+        grid-area: brokenHeartsMainImg;
+        width: 100vw;
+    }
+
+    #brokenHeartsContainer #brokenHeartsMainText{
+        grid-area: brokenHeartsMainText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsProgram{
+        grid-area: brokenHeartsProgram;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsProgram2{
+        grid-area: brokenHeartsProgram2;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsProgram3{
+        grid-area: brokenHeartsProgram3;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsSubText{
+        grid-area: brokenHeartsSubText;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsSubText2{
+        grid-area: brokenHeartsSubText2;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsSubText3{
+        grid-area: brokenHeartsSubText3;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsImg{
+        grid-area: brokenHeartsImg;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsImg2{
+        grid-area: brokenHeartsImg2;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    #brokenHeartsContainer #brokenHeartsImg3{
+        grid-area: brokenHeartsImg3;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsImg4{
+        grid-area: brokenHeartsImg4;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #brokenHeartsContainer #brokenHeartsImg5{
+        grid-area: brokenHeartsImg5;
         margin-left: 4%;
         margin-top: 4%;
         margin-bottom: 4%;
