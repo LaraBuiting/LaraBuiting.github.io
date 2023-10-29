@@ -506,15 +506,13 @@ a:active {
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
                         "mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg mysticLandsMainImg"
-                        ". . mysticLandsMainText . ."
+                        ". mysticLandsMainText mysticLandsMainText mysticLandsMainText ."
                         ". mysticLandsProgramImg mysticLandsProgramImg2 mysticLandsProgramImg3 ."
                         "mysticLandsSubText mysticLandsSubText mysticLandsSubText . ."
-                        ". . mysticLandsImg . ."
-                        ". . . mysticLandsImg2 ."
-                        ". mysticLandsImg3 mysticLandsImg3 . ."
+                        ". mysticLandsImg mysticLandsImg2 mysticLandsImg3 ."
                         ". mysticLandsImg4 mysticLandsImg4 mysticLandsImg4 ."
     }
 
@@ -523,7 +521,7 @@ a:active {
         width: 100vw;
     }
 
-    #mysticLandsContainer #mysticLandsMainText{
+    #mysticLandsContainer #mysticLandsTextMain{
         grid-area: mysticLandsMainText;
         margin-left: 4%;
         margin-top: 4%;
