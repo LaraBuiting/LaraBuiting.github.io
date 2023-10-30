@@ -460,7 +460,7 @@ a:active {
     .projectMainScreen{
         background-color: #826458;
         width: 100vw;
-        height: 650px;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -469,7 +469,7 @@ a:active {
 
     .projectMainImg{
         width: 100vw;
-        height: 650px;
+        height: 100%;
     }
 
     .projectTitleText{
