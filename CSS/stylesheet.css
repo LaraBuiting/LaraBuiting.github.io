@@ -177,7 +177,7 @@ a:active {
                                 "programTitle programTitle2 programTitle3 programTitle4"
                                 ". . . ."
                                 "programImg5 programImg6 programImg7 programImg8"
-                                "programTitle5 programTitle6 programTitle7 programTitle8"
+                                "programTitle5 programTitle6 programTitle7 programTitle8";
     }
 
     #programsIKnowContainer #programImg{
@@ -298,67 +298,142 @@ a:active {
         display: grid;
         height: 100vh;
         grid-template-columns: 2fr 1fr 2fr;
-        grid-template-rows: 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr;
+        grid-template-rows: 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr 1fr 2fr 3fr;
         grid-template-areas:
         ". . blobrunTitle"
-        ". . blobrunDiscription"
+        ". . blobrunDescription"
         ". . ."
         "portfolioTitle . ."
-        "portfolioDiscription . ."
+        "portfolioDescription . ."
         ". . . "
         ". . mysticlandsTitle"
-        ". . mysticlandsDiscription"
+        ". . mysticlandsDescription"
         ". . . "
         "brokenheartsTitle . ."
-        "brokenheartsDiscription . ."
+        "brokenheartsDescription . ."
+        ". . ."
+        ". . webshopTitle"
+        ". . webshopDescription"
+        ". . ."
+        "projectPlayTitle . ."
+        "projectPlayDescription . ."
+        ". . ."
+        ". . lvlDesignTitle"
+        ". . lvlDesignDescription"
+        ". . ."
+        "oOPTitle . ."
+        "oOPDescription . ."
+        ". . ."
+        ". . platformerShooterTitle"
+        ". . platformerShooterDescription";
     }
 
     #projectsContainer #blobrunTitle {
-        background-color: #c89b99;
         grid-area: blobrunTitle;
+        background-color: #c89b99;
         border-radius: 20px;
         margin-right: 4%;
     }
 
-    #projectsContainer #blobrunShortDiscription {
-        grid-area: blobrunDiscription;
-        margin-right: 4%;
+    #projectsContainer #blobrunShortDescription {
+        grid-area: blobrunDescription;
+        margin-right: 4%;        
     }
 
     #projectsContainer #portfolioSiteTitle {
-        background-color: #c89b99;
         grid-area: portfolioTitle;
+        background-color: #c89b99;
         border-radius: 20px;
         margin-left: 4%;
     }
 
-    #projectsContainer #portfolioSiteShortDiscription {
-        grid-area: portfolioDiscription;
+    #projectsContainer #portfolioSiteShortDescription {
+        grid-area: portfolioDescription;
         margin-left: 4%;
     }
 
     #projectsContainer #mysticLandsTitle {
-        background-color: #c89b99;
         grid-area: mysticlandsTitle;
+        background-color: #c89b99;
         border-radius: 20px;
         margin-right: 4%;
     }
 
-    #projectsContainer #mysticLandsShortDiscription {
-        grid-area: mysticlandsDiscription;
+    #projectsContainer #mysticLandsShortDescription {
+        grid-area: mysticlandsDescription;
         margin-right: 4%;
     }
 
     #projectsContainer #brokenheartsTitle {
-        background-color: #c89b99;
         grid-area: brokenheartsTitle;
+        background-color: #c89b99;
         border-radius: 20px;
         margin-left: 4%;
     }
 
-    #projectsContainer #brokenHeartsShortDiscription {
-        grid-area: brokenheartsDiscription;
+    #projectsContainer #brokenHeartsShortDescription {
+        grid-area: brokenheartsDescription;
         margin-left: 4%;
+    }
+
+    #projectsContainer #WebShopTitle {
+        grid-area: webshopTitle;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #WebShopShortDescription {
+        grid-area: webshopDescription;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #ProjectPlayTitle {
+        grid-area: projectPlayTitle;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #ProjectPlayShortDescription {
+        grid-area: projectPlayDescription;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #LvlDesignTitle {
+        grid-area: lvlDesignTitle;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #LvlDesignShortDescription {
+        grid-area: lvlDesignDescription;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #OOPTitle {
+        grid-area: oOPTitle;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #OOPShortDescription {
+        grid-area: oOPDescription;
+        margin-left: 4%;
+    }
+
+    #projectsContainer #PlatformerShooterTitle {
+        grid-area: platformerShooterTitle;
+        background-color: #c89b99;
+        border-radius: 20px;
+        margin-right: 4%;
+    }
+
+    #projectsContainer #PlatformerShooterShortDescription {
+        grid-area: platformerShooterDescription;
+        margin-right: 4%;
     }
 
     .projectTitles{
@@ -381,7 +456,7 @@ a:active {
             "blobrunSubText blobrunSubText blobrunSubText . ."
             ". blobrunProgramImg blobrunProgramImg2 blobrunProgramImg3 ."
             ". . blobrunSubText2 blobrunSubText2 blobrunSubText2"
-            ". blobrunEnd blobrunEnd blobrunEnd ."
+            ". blobrunEnd blobrunEnd blobrunEnd .";
     }
 
     #blobrunContainer #blobrunFullImg {
@@ -500,7 +575,7 @@ a:active {
                     "portfolioimg3 portfolioimg3 portfolioimg3 . ."
                     ". . portfolioimg4 portfolioimg4 portfolioimg4"
                     "portfolioimg5 portfolioimg5 portfolioimg5 . ."
-                    ". portfolioimg6 portfolioimg6 portfolioimg6 ."
+                    ". portfolioimg6 portfolioimg6 portfolioimg6 .";
     }
 
     #portfolioContainer #portfolioFullImg{
@@ -639,7 +714,7 @@ a:active {
                         "mysticLandsSubText mysticLandsSubText mysticLandsSubText . ."
                         ". mysticLandsImg mysticLandsImg2 mysticLandsImg3 ."
                         ". mysticLandsImg4 mysticLandsImg4 mysticLandsImg4 ."
-                        ". mysticLandsGame mysticLandsGame mysticLandsGame ."
+                        ". mysticLandsGame mysticLandsGame mysticLandsGame .";
     }
 
     #mysticLandsContainer #mysticLandsMainImg{
@@ -741,7 +816,7 @@ a:active {
                             ". . brokenHeartsImg2 . ."
                             ". .  brokenHeartsImg3 brokenHeartsImg3 brokenHeartsImg3 "
                             ". brokenHeartsImg4 brokenHeartsImg4 brokenHeartsImg4 ."
-                            ". .  brokenHeartsImg5 brokenHeartsImg5 brokenHeartsImg5 "
+                            ". .  brokenHeartsImg5 brokenHeartsImg5 brokenHeartsImg5 ";
     }
 
     #brokenHeartsContainer #brokenHeartsFullImg{
