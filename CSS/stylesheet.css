@@ -412,30 +412,6 @@ a:active {
         margin-right: 4%;
     }
 
-    #projectsContainer #OOPTitle {
-        grid-area: oOPTitle;
-        background-color: #c89b99;
-        border-radius: 20px;
-        margin-left: 4%;
-    }
-
-    #projectsContainer #OOPShortDescription {
-        grid-area: oOPDescription;
-        margin-left: 4%;
-    }
-
-    #projectsContainer #PlatformerShooterTitle {
-        grid-area: platformerShooterTitle;
-        background-color: #c89b99;
-        border-radius: 20px;
-        margin-right: 4%;
-    }
-
-    #projectsContainer #PlatformerShooterShortDescription {
-        grid-area: platformerShooterDescription;
-        margin-right: 4%;
-    }
-
     .projectTitles{
         text-align: center;
         padding: 2%;
