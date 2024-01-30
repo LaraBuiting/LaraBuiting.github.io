@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@3.3.3/src/css/preflight.css">
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet2.css">
+    <title>Level Design</title>
+</head>
+<body>
+<!-- Navigation bar -->
+<div id="navbar">
+    <div>
+        <a href="index.html">
+            <img src="Images/Logo.png" alt="Logo" id="logo">
+        </a>
+    </div>
+    <div id="buttons">
+        <div id="aboutMe">
+            <a href="aboutme.html">
+                <p class="buttonText">About me</p>
+            </a>
+        </div>
+        <div id="projects">
+            <a href="projects.html">
+                <p class="buttonText">Projects</p>
+            </a>
+        </div>
+        <div id="contactMe">
+            <a href="contactme.html">
+                <p class="buttonText">Contact me</p>
+            </a>
+        </div>
+        <div>
+            <a href="JavaScriptTestNL.html">
+                <img src="Images/englishFlag.png" alt="image of english flag" id="languageSwitch">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="JsTestContainer">
+    <div id="JSTestImg">
+
+    </div>
+    <div id="JSTestText">
+        <p class="projectTitles">
+            To practice with JavaScript we made a sort of test to work on our skills. So in exercise 1 you can hide and show the dog img, 2nd one
+            you can use the buttons to change the number. The third one is showing a list of planets you can go through, fourth one removes the
+            last planet, fifth adds a planet called planet, sixth you can give a name to the last planet and lastly you can show a list of all
+            the planets.
+        </p>
+    </div>
+    <div id="JSTestFullTest" class="projectTitles">
+        <p>
+
+        </p>
+        <h1>Lara Buiting</h1>
+
+        <hr>
+
+        <h2>Exercise 1</h2>
+        <h3>Now you see me now you don't</h3>
+        <button onclick="hideDog()">Hide dog!</button>
+        <button onclick="showDog()">Show dog!</button>
+        <br>
+        <img id="dogImg" src="Images/smilingDog.jpg" alt="smiling dog picture" width="50%" height="50%">
+
+        <hr>
+
+        <h2>Exercise 2</h2>
+        <h3>Button mania</h3>
+        <h2 id="buttonManiaNum">0</h2>
+        <button onclick="reset()">Reset to zero</button>
+        <button onclick="plus1()">Plus 1</button>
+
+        <hr>
+
+        <h2>Exercise 3</h2>
+        <h3>Planets in an Array</h3>
+        <button onclick="previous()">Previous</button>
+        <h3 id="shownPlanet">Mercury</h3>
+        <button onclick="next()">Next</button>
+
+        <hr>
+
+        <h2>Exercise 4</h2>
+        <h3>Planet poof!</h3>
+        <button onclick="boom()">BOOOOOOM!!!!!</button>
+
+        <hr>
+
+        <h2>Exercise 5</h2>
+        <h3>Planet B</h3>
+        <button onclick="addPlanet()">Add planet</button>
+
+        <hr>
+
+        <h2>Exercise 6</h2>
+        <h3>New planet</h3>
+        <input type="text" id="inputText">
+        <button onclick="addPlanet2()">Add planet</button>
+
+        <hr>
+
+        <h2>Exercise 7</h2>
+        <h3>Glazing at the planets</h3>
+        <button onclick="showAllPlanets()">Show planets</button>
+        <p id="planetList"></p>
+    </div>
+</div>
+
+<style>
+    h1, h2, h3, p {color: black; font-family: Verdana, Geneva, Tahoma, sans-serif}
+    button, p, h1, h2, h3{margin-top: 0; margin-bottom: 0;}
+</style>
+
+<script src="JS/myscript.js"></script>
+</body>
+</html>

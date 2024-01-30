@@ -227,3 +227,39 @@ a:active {
     margin-top: 2%;
     margin-bottom: 4%;
 }
+
+/* webshop */
+
+#JsTestContainer{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+            "JSTestFullImg JSTestFullImg JSTestFullImg JSTestFullImg JSTestFullImg"
+            ". JSTestText JSTestText JSTestText ."
+            ". JSTestFull JSTestFull JSTestFull ."
+}
+
+#JsTestContainer #JSTestImg{
+    grid-area: JSTestFullImg;
+    margin-bottom: 2%;
+}
+
+#JsTestContainer #JSTestText{
+    grid-area: JSTestText;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#JsTestContainer #JSTestFullTest{
+    grid-area: JSTestFull;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
