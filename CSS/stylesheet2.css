@@ -263,3 +263,47 @@ a:active {
     background-color: #c89b99;
     border-radius: 20px;
 }
+
+/* Project Play */
+
+#projectPlayContainer{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+            "ProjectPlayFullImg ProjectPlayFullImg ProjectPlayFullImg ProjectPlayFullImg ProjectPlayFullImg"
+            ". projectPlayMainText projectPlayMainText projectPlayMainText ."
+            ". projectPlayText projectPlayText projectPlayText ."
+            ". projectPlayGame projectPlayGame projectPlayGame ."
+}
+
+#projectPlayContainer #projectPlayMainImg{
+    grid-area: ProjectPlayFullImg;
+    margin-bottom: 2%;
+}
+
+#projectPlayContainer #projectPlayMainText{
+    grid-area: projectPlayMainText;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#projectPlayContainer #projectPlayText{
+    grid-area: projectPlayText;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#projectPlayContainer #projectPlayGame{
+    grid-area: projectPlayGame;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
