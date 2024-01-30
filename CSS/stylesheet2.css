@@ -113,15 +113,117 @@ a:active {
     position: absolute;
 }
 
+.projectTitles{
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+}
+
 /* lvl design */
 
 #lvlDesignContainer{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-            "lvlDesignFullImg lvlDesignFullImg lvlDesignFullImg lvlDesignFullImg lvlDesignFullImg"
-            ". lvlDesignMainText lvlDesignMainText lvlDesignMainText ."
-            "lvlDesignImg lvlDesignImg lvlDesignImg . ."
+            "lvlDesignFullImg lvlDesignFullImg lvlDesignFullImg lvlDesignFullImg"
+            ". lvlDesignMainText  lvlDesignMainText ."
+            ". lvlDesignImgLayout lvlDesignImgLayout ."
+            ". lvlDesignFirstLvl  lvlDesignFirstLvl ."
+            "lvlDesignFirstLvlImg . lvlDesignFirstLvlImg2 ."
+            ". lvlDesignSecondLvl lvlDesignSecondLvl ."
+            ". lvlDesignSecondLvlImg . lvlDesignSecondLvlImg2"
+            ". lvlDesignThirdLvl lvlDesignThirdLvl  ."
+            "lvlDesignThirdLvlImg . lvlDesignThirdLvlImg2 ."
+}
+
+#lvlDesignContainer #lvlDesignMainImg{
+    grid-area: lvlDesignFullImg;
+    margin-bottom: 2%;
+}
+
+#lvlDesignContainer #lvlDesignTextMain{
+    grid-area: lvlDesignMainText;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#lvlDesignContainer #lvlDesignLayout{
+    grid-area: lvlDesignImgLayout;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignFirstLvl{
+    grid-area: lvlDesignFirstLvl;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#lvlDesignContainer #lvlDesignFirstLvlImg{
+    grid-area: lvlDesignFirstLvlImg;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignFirstLvlImg2{
+    grid-area: lvlDesignFirstLvlImg2;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignSecondLvl{
+    grid-area: lvlDesignSecondLvl;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#lvlDesignContainer #lvlDesignSecondLvlImg{
+    grid-area: lvlDesignSecondLvlImg;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignSecondLvlImg2{
+    grid-area: lvlDesignSecondLvlImg2;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignThirdLvl{
+    grid-area: lvlDesignThirdLvl;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: #c89b99;
+    border-radius: 20px;
+}
+
+#lvlDesignContainer #lvlDesignThirdLvlImg{
+    grid-area: lvlDesignThirdLvlImg;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#lvlDesignContainer #lvlDesignThirdLvlImg2{
+    grid-area: lvlDesignThirdLvlImg2;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
